@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "(gdb) Iniciar programa",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${fileDirname}",
+        "environment": [],
+        "externalConsole": true,
+        "MIMode": "gdb",
+        "setupCommands": [
+          {
+            "description": "Habilitar la impresión de formato",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+          }
+        ],
+        "preLaunchTask": "Compilar C++ con g++",
+        "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+        "externalConsole": false,
+        "internalConsoleOptions": "openOnSessionStart"
+      }
+    ]
+  }
+  

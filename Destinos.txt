@@ -1,0 +1,8 @@
+NoUnidad Destino Precio CantidadPasajeros Km
+1 SantaCruz 5500 50 15
+2 Nicoya 5000 52 12
+3 Samara 4500 45 13
+4 PlayaCarrillo 4700 50 13
+5 Tamarindo 6000 48 16
+6 PlayaLangosta 6500 48 16
+7 Nambi 5300 85 13
